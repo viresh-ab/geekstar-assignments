@@ -23,9 +23,19 @@
             border-radius: 0px;
         }
     </style>
+     <script>
+        function disableClick(){
+        document.onclick=function(event){
+        if (event.button == 2) {
+        alert('Right Click Message');
+        return false;
+        }
+        }
+        }
+        </script>
 </head>
 
-<body>
+<body onLoad="disableClick()">
     <br><br>
     <div class="row">
         <div class="col-4">
