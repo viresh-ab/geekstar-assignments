@@ -1,100 +1,96 @@
+/* file: styles.css */
 body {
-    font-family: sans-serif;
-    padding: 20px;
-    background-image: url(https://images.pexels.com/photos/4085266/pexels-photo-4085266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    color: black;
-}
-
-.menu {
-    margin: auto;
-    width: 80%;
-    max-width: 500px;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-hr {
-    height: 3px;
-    background-color: brown;
-    border: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-header {
-    text-align: center;
+background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+font-family: sans-serif;
+padding: 20px;
 }
 
 h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
+font-size: 40px;
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+h2 {
+font-size: 30px;
 }
 
 .established {
-    font-style: italic;
+font-style: italic;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
+h1, h2, p {
+text-align: center;
 }
 
-h1,
-h2 {
-    font-family: "Impact", serif;
+.menu {
+width: 80%;
+background-color: burlywood;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+max-width: 500px;
 }
 
-section {
-    margin: 20px 0;
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+hr {
+height: 2px;
+background-color: brown;
+border-color: brown;
+}
+
+.bottom-line {
+margin-top: 25px;
+}
+
+h1, h2 {
+font-family: Impact, serif;
 }
 
 .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
 }
 
-.name {
-    width: 69%;
+.flavor, .dessert {
+text-align: left;
+width: 75%;
 }
 
 .price {
-    width: 29%;
-    text-align: right;
+text-align: right;
+width: 25%;
 }
+
+/* FOOTER */
 
 footer {
-    text-align: center;
+font-size: 14px;
 }
 
-footer p,
-foot a {
-    font-size: 14px;
+.address {
+margin-bottom: 5px;
 }
-
 
 a {
-    color: black;
+color: black;
 }
 
 a:visited {
-    color: black;
+color: black;
 }
 
 a:hover {
-    color: brown;
+color: brown;
 }
 
 a:active {
-    color: brown;
-}
-
-.menu-icon {
-    margin-top: -15px;
-    height: 50px;
-}
-
-.coffee-icon {
-    height: 45px;
+color: brown;
 }
